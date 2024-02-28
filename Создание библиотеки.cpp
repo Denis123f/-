@@ -5,9 +5,9 @@
 
 using namespace std;
 
-/*Создать класс "Библиотека", который содержит список книг, 
-список читателей и методы для добавления книги в библиотеку, 
-выдачи книги читателю, возврата книги и отслеживания истории выдачи книг.*/
+/*Г‘Г®Г§Г¤Г ГІГј ГЄГ«Г Г±Г± "ГЃГЁГЎГ«ГЁГ®ГІГҐГЄГ ", ГЄГ®ГІГ®Г°Г»Г© Г±Г®Г¤ГҐГ°Г¦ГЁГІ Г±ГЇГЁГ±Г®ГЄ ГЄГ­ГЁГЈ, 
+Г±ГЇГЁГ±Г®ГЄ Г·ГЁГІГ ГІГҐГ«ГҐГ© ГЁ Г¬ГҐГІГ®Г¤Г» Г¤Г«Гї Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї ГЄГ­ГЁГЈГЁ Гў ГЎГЁГЎГ«ГЁГ®ГІГҐГЄГі, 
+ГўГ»Г¤Г Г·ГЁ ГЄГ­ГЁГЈГЁ Г·ГЁГІГ ГІГҐГ«Гѕ, ГўГ®Г§ГўГ°Г ГІГ  ГЄГ­ГЁГЈГЁ ГЁ Г®ГІГ±Г«ГҐГ¦ГЁГўГ Г­ГЁГї ГЁГ±ГІГ®Г°ГЁГЁ ГўГ»Г¤Г Г·ГЁ ГЄГ­ГЁГЈ.*/
 
 class Library {
 	vector<string> books;
@@ -91,26 +91,6 @@ public:
 
 int main() {
 	Library denis;
-
-	
-
-	denis.insertNewBook("harr");
-	denis.insertNewBook("wolf");
-	denis.insertNewBook("zeus");
-	denis.insertNewBook("like");
-	denis.insertNewBook("swwitb");
-	denis.insertNewBook("jh");
-
-	denis.historyBooks();
-
-	denis.outsertBook("any", "like");
-	denis.outsertBook("denis", "zeus");
-
-	denis.historyBooks();
-
-	denis.insertOldBook("denis", "zeus");
-
-	denis.historyBooks();
 
 	return 0;	
 }
